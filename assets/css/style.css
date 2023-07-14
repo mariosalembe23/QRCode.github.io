@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+:root{
+    --whiteColor: hsl(0, 0%, 100%);
+    --LightColor: hsl(212, 45%, 89%);
+    --GrayishColor: hsl(220, 15%, 55%);
+    --DarkBlueColor: hsl(218, 44%, 22%);
+    --font: "Outfit", sans-serif;
+}
+*{
+    font-family: var(--font);
+}
+body{
+    background-color: var(--LightColor);
+}
+p{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--GrayishColor);
+}
+#card{
+    max-width: 16rem;
+    width: 96%;
+}
+h1{
+    color: var(--DarkBlueColor);
+    font-weight: 700;
+}
